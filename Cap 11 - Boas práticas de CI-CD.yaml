@@ -1,0 +1,22 @@
+# Cap 11 - Boas práticas de CI-CD
+
+## Best Practices
+
+- Change log:
+	https://keepachangelog.com/pt-BR/1.1.0/
+
+- Conversional commits:
+	https://www.conventionalcommits.org/en/v1.0.0/
+
+- Semantic Versioning:
+	https://semver.org/spec/v2.0.0.html
+
+- Git Flow:
+	Vantagens:
+		• Organização
+		• Mitigação de conflitos
+		• Estabilidade
+	Desvantagens:
+		• Complexidade
+		• Overhead de gerenciamento
+

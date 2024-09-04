@@ -1,0 +1,38 @@
+# Cap 17 - SRE - Objetivos de Níveis de Serviço
+
+## Objetivos de Nível de Serviço
+
+	Compreender e medir os comportamentos essenciais de um serviço é fundamental para gerenciá-lo eficientemente. Isso envolve definir e cumprir um nível de serviço para os usuários, através de SLIs, SLOs e SLAs.
+	Essas métricas indicam o que é importante, os objetivos desejados e como reagir caso o serviço não atenda às expectativas. Escolher as métricas certas permite ações corretivas adequadas e dá confiança à equipe de SRE na integridade do serviço.
+
+As principais responsabilidades dos SREs não são apenas automatizar “todas as coisas” e manter o ambiente de operações. As suas tarefas e projetos diários são conduzidos pelos SLOs, garantindo que os SLOs são defendidos a curto prazo e que podem ser mantidos a médio e longo prazo. Podemos até afirmar que sem SLOs não há necessidade de SREs.
+
+### Nívelis de Serviço
+- SLI (Service Level Indicator): 
+	Métrica utilizada para qualificar o desempenho ou qualidade de um serviço, como latência, disponibilidade, durabilidade ou taxa de transferência.
+- SLO (Service Level Objective): 
+	É uma meta de quão bem um produto ou serviço deve operar, por exemplo 99,5% de disponibilidade na API de consulta ao saldo. SLOs nunca devem ser 100%
+- SLA (Service Level Agreement): 
+	Acordo formal entre um provedor de serviço e seus clientes, por exemplo 99,7% de disponibilidade na API de consulta ao saldo.
+- Error Budget: 
+	É a quantidade tolerada de desvios em um determinado período de tempo, sem comprometer os objetivos do serviço.
+- Error Budget Policies: 
+	São diretrizes ou políticas estabelecidas para determinar as consequências de exceder o Error Budget.
+
+### ferramentas de auxílio
+
+Para auxiliar na geração de métricas dos SLO e error budgets podemos utilizar algumas ferramentas, segue abaixo a recomendação de algumas delas:
+
+- OSS:
+	- SLO-Generator (https://github.com/google/slo-generator)
+	- Sloth (https://github.com/slok/sloth)
+
+- Enterprise:
+	- Dynatrace
+	- Datadog
+
+Vídeo com demo de como é usado em um ambiente produtivo:
+https://www.youtube.com/watch?v=7IUgTNcPFlU&t=2463s
+	
+	
+

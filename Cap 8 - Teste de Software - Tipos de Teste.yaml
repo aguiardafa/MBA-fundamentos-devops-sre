@@ -1,0 +1,21 @@
+#Cap 8 - Teste de Software - Tipos de Teste
+
+## Abordagens de testes automatizados
+
+### Tipos de testes automatizados:
+- Testes Unitários: 
+	Verificam o funcionamento individual de cada unidade de código (funções, classes). São rápidos e isolados.
+- Testes Integrados: 
+	Verificam a interação entre diferentes unidades de código, garantindo que elas funcionem juntas como esperado.
+- Testes End to End (E2E): 
+	Simulam o fluxo completo do usuário pela aplicação, testando desde a interface até o banco de dados, passando por todos os componentes.
+- Testes Regressivos (Fumaça): 
+	Verificam se mudanças no código não impactaram funcionalidades já existentes, garantindo que a aplicação continue funcionando como antes.
+- Testes Sintéticos (Simula usuário final em ambiente de PROD): 
+	Criam cenários de carga simulada para testar a performance e capacidade de resposta da aplicação sob diferentes condições de uso.
+- Testes Mutantes: 
+	Inserem erros intencionais no código para verificar se os testes existentes conseguem detectá-los.
+- Testes Contínuos: 
+	Automatizam a execução de testes a cada alteração no código, fornecendo feedback imediato e garantindo a qualidade do código continuamente.
+- Matriz de Testes: 
+	Estrutura que define a abrangência dos testes, incluindo quais cenários serão testados, quais tipos de testes serão utilizados e quais ferramentas serão usadas.

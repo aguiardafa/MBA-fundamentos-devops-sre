@@ -1,0 +1,33 @@
+# Cap 24 - Operational Readiness Review (ORR)
+
+	A Amazon Web Services (AWS) criou a Operational Readiness Review (ORR) para resumir os
+aprendizados dos incidentes operacionais da AWS em perguntas selecionadas com orientação de
+práticas recomendadas.
+
+## Objetivo
+
+	O objetivo é ajudar na construção de sistemas altamente disponíveis e resilientes sem comprometer a agilidade e velocidade de desenvolvimento. 
+	A ORR utiliza uma abordagem baseada em dados para identificar e mitigar riscos operacionais, complementando as revisões do Framework Well-Architected da AWS.
+
+## As Perguntas
+
+1. Disponibilidade e Escalabilidade:
+• Como você garante a disponibilidade dos seus serviços?
+• Quais são os mecanismos de escala automática implementados?
+• Quais medidas foram adotadas para lidar com picos de tráfego inesperados?
+2. Resiliência e Recuperação:
+• Quais são os seus procedimentos de recuperação de desastres?
+• Como você gerencia backups e replicação de dados?
+• Quais são os seus planos de failover em caso de falhas em uma região específica?
+3. Monitoramento e Alarmes:
+• Quais métricas são monitoradas para detectar problemas de desempenho?
+• Como você define alertas para eventos críticos?
+• Quais ações são tomadas em resposta a um alerta?
+4. Segurança:
+• Quais são as suas práticas de gerenciamento de identidade e acesso (IAM)?
+• Como você protege seus dados em trânsito e em repouso?
+• Quais são os controles de segurança implementados para proteger contra ataques externos e internos?
+5. Gerenciamento de Mudanças:
+• Como você gerencia e implementa alterações em sua infraestrutura e aplicativos?
+• Quais são os processos para revisão e aprovação de alterações?
+• Como você lida com reversões e backouts de alterações problemáticas?

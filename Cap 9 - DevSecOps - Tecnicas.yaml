@@ -1,0 +1,21 @@
+# Cap 9 - DevSecOps
+
+## Técnicas de DevSecOps
+
+SAST (Static Application Security Testing):
+	É uma técnica de análise estática que examina o código-fonte ou o código compilado de um aplicativo em busca de vulnerabilidades de
+segurança. 
+	Ela procura por falhas de segurança, como vulnerabilidades de injeção de código (como SQL injection e XSS), uso inadequado de APIs e outras vulnerabilidades de código. 
+	O SAST é realizado durante a fase de desenvolvimento do software, geralmente como parte do processo de contínuos integration.
+
+DAST (Dynamic Application Security Testing):
+	É uma técnica de análise dinâmica que avalia o software em execução para identificar vulnerabilidades de segurança enquanto ele está sendo executado. 
+	DAST envolve "Pen Tests" automatizados ou manuais, onde é feito a simulação de ataques de um invasor externo. 
+	Ele procura por vulnerabilidades que podem ser exploradas quando o software está em execução, como configurações de servidor
+inadequadas, falhas de autenticação e autorização, entre outros.
+
+IAST (Interactive Application Security Testing):
+	É uma técnica que combina elementos de SAST e DAST. 
+	Ao contrário do SAST, que analisa o código-fonte em repouso, e do DAST, que testa o aplicativo em tempo de execução, o IAST monitora a execução do aplicativo durante os testes de segurança e examina o código-fonte em busca de vulnerabilidades enquanto o aplicativo está sendo executado. 
+	Isso permite uma análise mais precisa e contextualizada das
+vulnerabilidades, pois leva em consideração o contexto da execução do aplicativo.

@@ -1,0 +1,28 @@
+# Cap 22 - Correction of Errors (CoE).yaml
+
+	Correction of Erros é um processo criado pela AWS para melhorar a qualidade da operação e dos produtos documentando e resolvendo problemas. 
+
+## Objetivo
+
+	O CoE visa definir uma maneira padronizada de documentar as causas básicas críticas e garantir que elas sejam revisadas e abordadas, ajudando os times a entender as RCAs, serem revisadas de forma consistente e endereçar os pontos de ação corretamente.
+
+## Estrutura de um COE:
+
+• O que aconteceu?
+• Qual foi o impacto nos clientes e no seu negócio?
+• Qual foi a causa raiz?
+• Que dados você tem para apoiar isso?
+	- especialmente métricas e gráficos
+• Quais foram as implicações críticas dos pilares do WAF, especialmente a segurança?
+	- Ao criar arquiteturas, você faz concessões entre pilares com base no contexto do seu negócio. Essas decisões de negócios podem orientar suas prioridades de engenharia. 
+	- Você pode otimizar para reduzir custos em detrimento da confiabilidade em ambientes de desenvolvimento, ou para soluções de missão crítica, pode otimizar a confiabilidade com custos maiores. 
+	- Segurança é sempre prioridade zero, pois você precisa proteger seus clientes.
+
+• Que lições você aprendeu?
+• Que ações corretivas você está tomando?
+	- Itens de ações
+	- Itens relacionados (tíquetes de problemas, etc.)
+
+## Revisão
+• Devemos fazer revisões dos CoEs com os times a fim de compartilhar conhecimento
+• CoEs de alto impacto devem ser revisadas durante a ops meeting

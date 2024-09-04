@@ -1,0 +1,15 @@
+# Cap 21 - Postmortem
+
+	O termo post-mortem refere-se a uma prática organizacional de revisão e aprendizado após a ocorrência de incidentes ou falhas em sistemas. Em vez de culpar indivíduos, a abordagem proativa busca entender as causas raiz dos problemas, documentar detalhadamente o incidente e implementar ações corretivas para evitar recorrências.
+
+	Essa prática promove uma cultura de transparência, confiança e responsabilidade compartilhada, onde as equipes se sentem seguras para relatar incidentes e compartilhar aprendizados, contribuindo assim para a melhoria contínua do sistema e a prevenção de futuros problemas.
+
+## Informações que devem conter em um bom postmortem:
+• Contexto
+• Análise de causa raiz (RCA)
+• Ações corretivas
+• Aprendizados
+• Revisão e acompanhamento
+
+Exemplo de um bom postmortem:
+https://sre.google/sre-book/example-postmortem/
